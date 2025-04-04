@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            margin: 0px;
+            background-color:gray;
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            width: 500px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 1%;
+        }
+        .contato{
+            margin-bottom: 1px;
+            flex-direction: row;
+            display: flex;
+            height: 100px;
+        }
+        .contato > div.imagem{
+            width: 90px;
+        }
+        .contato > div.text{
+            margin-left: 50px;
+            flex-direction: column;
+            display: flex;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-right: auto;
+            font-size: 14px;
+            color: rgb(80, 79, 79);
+            width: 400px;
+        }
+        img{
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            margin-left: 30px;
+        }
+        .subtexto{
+            color: rgb(148, 146, 146);
+        }
+        hr {
+            width: 90%;
+            color: gre;
+        }
+        
+
+        /*#contato1.contato > div.imagem{}*/
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="contato">
+            <div class="imagem"> <img src="1.jpg" alt="">
+            </div>
+            <div class="text">
+                <div>Linda Hart </div>
+                <div class="subtexto">6765 Shady Ln Dr</div>
+            </div>
+        </div>
+        <hr>
+        <div class="contato">
+            <div class="imagem"><img src="2.jpg" alt=""></div>
+            <div class="text">
+                <div>Roger Medina</div>
+                <div class="subtexto">2420 Paddock Way</div>
+            </div>
+        </div>
+        <hr>
+        <div class="contato">
+            <div class="imagem"><img src="3.jpg" alt=""></div>
+            <div class="text">
+                <div>Elizabeth Austin</div>
+                <div class="subtexto">6685 Blossom Hill RD</div>
+            </div>
+        </div>
+        <hr>
+        <div class="contato">
+            <div class="imagem"><img src="4.jpg" alt=""></div>
+            <div class="text">
+                <div>Dean Sullivan</div>
+                <div class="subtexto">6727 Airplane Ave</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
